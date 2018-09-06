@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Controller Classes
+</name>
+</assembly>
+<members>
+<member name="T:Controller_Classes.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Controller_Classes.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Controller_Classes.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Controller_Classes.Job">
+ <summary>
+ One or more controllers that were purchased at one time. The Job Number assigned is
+ in the format of YYMMDD-### where ### is a incremental number to differentiate jobs created on the same day.
+ 181207-003= the third job created on the 7th of december 2018
+ </summary>
+</member>
+<member name="T:Controller_Classes.Group">
+ <summary>
+ A collection of one or more cars. A group of cars work together to service a common set of floors
+ </summary>
+</member>
+<member name="T:Controller_Classes.Car">
+ <summary>
+ A single elevator car
+ </summary>
+</member>
+<member name="T:Controller_Classes.Physical_Car">
+ <summary>
+ Describes the physical elements of the car
+ </summary>
+</member>
+<member name="T:Controller_Classes.Physical_Group">
+ <summary>
+ Describes the physical elements of the group
+ </summary>
+</member>
+</members>
+</doc>
